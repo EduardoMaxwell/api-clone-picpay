@@ -6,6 +6,8 @@ spring:
     url: jdbc:postgresql://localhost:5432/picpaycloneDB
     username: postgres
     password: 321
+  api:
+       versao: 1.0.0
 
   jpa:
     hibernate:
