@@ -1,4 +1,4 @@
-package br.com.eduardomaxwell.picpayclone;
+package br.com.eduardomaxwell.picpayclone.converters;
 
 import java.util.ArrayList;
 import java.util.List;

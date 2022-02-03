@@ -1,4 +1,8 @@
-package br.com.eduardomaxwell.picpayclone.repository;
+package br.com.eduardomaxwell.picpayclone.service;
 
-public interface CartaoCreditoService extends  {
+import br.com.eduardomaxwell.picpayclone.dto.CartaoCreditoDTO;
+import br.com.eduardomaxwell.picpayclone.model.CartaoCredito;
+
+public interface CartaoCreditoService{
+    CartaoCreditoDTO salvar(CartaoCreditoDTO cartaoCredito);
 }
