@@ -5,7 +5,9 @@ import br.com.eduardomaxwell.picpayclone.dto.CartaoCreditoDTO;
 import br.com.eduardomaxwell.picpayclone.model.CartaoCredito;
 import br.com.eduardomaxwell.picpayclone.repository.CartaoCreditoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
+@Service
 public class CartaoCreditoServiceImpl implements CartaoCreditoService{
     @Autowired
     private CartaoCreditoRepository cartaoCreditoRepository;
